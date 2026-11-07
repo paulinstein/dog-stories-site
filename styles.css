@@ -49,6 +49,26 @@ ul.features li { margin: 4px 0; }
 nav.top { margin-bottom: 8px; }
 nav.top a { text-decoration: none; font-weight: 600; }
 
+p.lead { color: var(--brown-soft); font-size: 1.05rem; }
+
+/* How to play: a screenshot beside each step */
+section.step {
+  display: grid; grid-template-columns: 200px 1fr; gap: 24px; align-items: center;
+  background: var(--card); border: 1px solid var(--line); border-radius: 20px;
+  padding: 20px 24px; margin-top: 20px;
+}
+section.step img {
+  width: 100%; border-radius: 14px; box-shadow: 0 4px 14px rgba(75, 46, 32, 0.18);
+}
+section.step h2 { margin-top: 0; }
+section.step p { margin: 0; }
+
+.more { text-align: center; margin-top: 24px; }
+.more a {
+  display: inline-block; padding: 10px 22px; border-radius: 999px;
+  border: 2px solid var(--orange); font-weight: 600; text-decoration: none;
+}
+
 dt { font-weight: 700; margin-top: 16px; }
 dd { margin: 4px 0 0; }
 
@@ -61,4 +81,6 @@ footer a { margin: 0 8px; }
   .shots { grid-template-columns: repeat(2, 1fr); }
   .card { padding: 20px; }
   h1 { font-size: 1.8rem; }
+  section.step { grid-template-columns: 1fr; gap: 14px; padding: 18px; }
+  section.step img { max-width: 260px; margin: 0 auto; }
 }
