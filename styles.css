@@ -78,6 +78,14 @@ section.callout img {
 section.callout h2 { margin: 6px 0 8px; }
 section.callout p { margin: 0 0 10px; }
 section.callout p:last-child { margin-bottom: 0; }
+section.callout .themes {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 14px;
+}
+section.callout .themes figure { margin: 0; text-align: center; }
+section.callout .themes img { max-width: none; margin: 0; }
+section.callout .themes figcaption {
+  margin-top: 6px; font-size: 0.9rem; font-weight: 600; color: var(--brown-soft);
+}
 .new {
   display: inline-block; padding: 2px 12px; border-radius: 999px;
   background: var(--orange); color: #fff; font-size: 0.85rem; font-weight: 700;
