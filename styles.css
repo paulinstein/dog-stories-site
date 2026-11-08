@@ -65,6 +65,7 @@ section.step img {
 }
 section.step h2 { margin-top: 0; }
 section.step p { margin: 0; }
+section.step p + p { margin-top: 10px; }
 
 /* Home page call-out for a new feature */
 section.callout {
