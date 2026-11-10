@@ -79,6 +79,8 @@ section.callout img {
 section.callout h2 { margin: 6px 0 8px; }
 section.callout p { margin: 0 0 10px; }
 section.callout p:last-child { margin-bottom: 0; }
+section.callout ul { margin: 0 0 10px; padding-left: 20px; }
+section.callout li { margin-bottom: 6px; }
 section.callout .themes {
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 14px;
 }
