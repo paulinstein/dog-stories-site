@@ -118,3 +118,12 @@ footer a { margin: 0 8px; }
   section.callout { grid-template-columns: 1fr; gap: 14px; padding: 18px; }
   section.callout img { max-width: 260px; margin: 0 auto; }
 }
+
+/* "a Silly Willy app" stamp, linking to sillywillyapps.com */
+footer .sw-stamp {
+  display: inline-flex; align-items: center; gap: 8px;
+  margin: 14px 0 6px; text-decoration: none; color: var(--brown-soft);
+  font-style: italic;
+}
+footer .sw-stamp img { display: block; transition: transform .15s; }
+footer .sw-stamp:hover img { transform: rotate(-2deg) scale(1.05); }
