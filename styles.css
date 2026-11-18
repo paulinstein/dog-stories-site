@@ -71,6 +71,18 @@ section.step h2 { margin-top: 0; }
 section.step p { margin: 0; }
 section.step p + p { margin-top: 10px; }
 
+/* App Store launch announcement */
+section.launch {
+  background: var(--card); border: 2px solid var(--orange); border-radius: 20px;
+  overflow: hidden; margin-top: 28px; text-align: center;
+}
+section.launch img { display: block; width: 100%; height: auto; }
+section.launch .launch-text { padding: 20px 24px 24px; }
+section.launch h2 { margin: 8px 0 8px; }
+section.launch p { margin: 0 0 10px; }
+section.launch .badge { margin-top: 4px; }
+section.launch .soon { margin: 6px 0 0; font-size: 0.95em; opacity: 0.75; }
+
 /* Home page call-out for a new feature */
 section.callout {
   display: grid; grid-template-columns: 200px 1fr; gap: 24px; align-items: center;
