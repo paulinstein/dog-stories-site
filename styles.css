@@ -35,6 +35,10 @@ h2 { font-size: 1.35rem; margin: 32px 0 8px; }
   display: inline-block; margin-top: 16px; padding: 8px 18px;
   background: var(--orange); color: #fff; border-radius: 999px; font-weight: 600;
 }
+a.badge { text-decoration: none; }
+a.badge:hover { filter: brightness(1.08); }
+.stores { margin: 0; }
+.stores .soon { display: block; margin-top: 10px; font-size: 0.95em; opacity: 0.75; }
 
 .card {
   background: var(--card); border: 1px solid var(--line); border-radius: 20px;
